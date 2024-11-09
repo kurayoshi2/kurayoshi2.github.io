@@ -1,56 +1,19 @@
 # 自己紹介
 
-こんにちは！私は **[あなたの名前]** です。
-
-ソフトウェア開発者として、プログラミングや技術に情熱を持っています。ここでは私のスキル、経験、および趣味について簡単に紹介します。
+こんにちは！私は **kurayoshi** です。(scratch名)
 
 ---
 
 ## 🚀 私について
 
-- **名前**: [あなたの名前]
-- **職業**: [職業（例: ソフトウェアエンジニア）]
-- **場所**: [あなたの場所（例: 東京、日本）]
-- **趣味**: [趣味（例: ゲーム、映画鑑賞、音楽）]
-- **連絡先**: [連絡先情報（例: email@example.com）]
+- **名前**: kurayoshi
+- **職業**: Gakusei
+
+よく使うサイト：
+- [GitHub](https://github.com/)
+- [CodeSandbox](https://codesandbox.io/)
 
 ---
 
-## 🛠️ 使用している技術
-
-私が現在使っている技術やツールの一覧です。
-
-- **プログラミング言語**: Python, JavaScript, Ruby, Java
-- **フレームワーク**: React, Django, Flask, Node.js
-- **ツール**: Git, Docker, Kubernetes, CI/CD
-- **データベース**: MySQL, PostgreSQL, MongoDB
-- **クラウドサービス**: AWS, Google Cloud, Azure
-
----
-
-## 📚 プロジェクト
-
-いくつかのプロジェクトをGitHubで公開しています。以下のリンクから確認できます。
-
-- [プロジェクト名 1](https://github.com/username/repository1) - プロジェクトの簡単な説明。
-- [プロジェクト名 2](https://github.com/username/repository2) - プロジェクトの簡単な説明。
-
----
-
-## 🌐 どこで繋がるか
-
-- [Twitter](https://twitter.com/あなたのユーザー名)
-- [LinkedIn](https://www.linkedin.com/in/あなたの名前)
-- [Portfolio](https://www.あなたのポートフォリオURL)
-
----
-
-## 💬 その他
-
-- **好きな言葉**: [あなたの好きな言葉]
-- **最近読んだ本**: [本のタイトル]
-- **目標**: [今年の目標や今後やりたいこと]
-
----
-
-ありがとうございます！私のGitHubプロフィールを見ていただき、どうぞ気軽にお問い合わせください😊
+## Scratchアイコン
+![プロフィール画像](https://uploads.scratch.mit.edu/get_image/user/100748268_60x60.png))
