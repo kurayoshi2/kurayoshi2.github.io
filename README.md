@@ -22,5 +22,5 @@
 最近は***Codesandbox***でクソサイトを開発してます。使い道はないです
 
 ---
-##　山形県
+## 山形県
 ![山形県の画像](https://www.the0123.com/pref/img/img_yamagata_01.jpg)
