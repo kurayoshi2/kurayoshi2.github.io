@@ -16,4 +16,6 @@
 ---
 
 ## Scratchアイコン
-![プロフィール画像](https://uploads.scratch.mit.edu/get_image/user/100748268_60x60.png))
+![プロフィール画像](https://uploads.scratch.mit.edu/get_image/user/100748268_60x60.png)
+
+好きな県は**山形県**です。山形県は最高です。
