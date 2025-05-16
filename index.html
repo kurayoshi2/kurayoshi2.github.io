@@ -1,3 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Windows 7 UI</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: url('https://wallpapercave.com/wp/wp2357848.jpg') no-repeat center center / cover;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    #desktop .icon {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: white;
+    }
+
+    #taskbar {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 40px;
+      background: rgba(30, 30, 30, 0.9);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+      color: white;
+    }
+
+    #start-menu {
+      position: fixed;
+      bottom: 40px;
+      left: 10px;
+      width: 200px;
+      height: 300px;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(5px);
+      border-radius: 8px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .window {
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      width: 400px;
+      height: 300px;
+      background: white;
+      border: 1px solid gray;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .title-bar {
+      background: linear-gradient(to bottom, #c6d6ec, #8faac9);
+      padding: 5px;
+      cursor: move;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
 <body>
   <div id="desktop">
     <div class="icon">🗑️ ごみ箱</div>
@@ -15,6 +85,41 @@
 
   <div class="window hidden" id="notepad-window">
     <div class="title-bar">メモ帳</div>
-    <textarea></textarea>
+    <textarea style="flex: 1;"></textarea>
   </div>
+
+  <script>
+    const startBtn = document.getElementById('start-button');
+    const startMenu = document.getElementById('start-menu');
+    const notepadWindow = document.getElementById('notepad-window');
+
+    startBtn.onclick = () => {
+      startMenu.classList.toggle('hidden');
+    };
+
+    startMenu.querySelector('p:nth-child(2)').onclick = () => {
+      notepadWindow.classList.remove('hidden');
+    };
+
+    const titleBar = document.querySelector('.title-bar');
+    let isDragging = false, offsetX, offsetY;
+
+    titleBar.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      offsetX = e.offsetX;
+      offsetY = e.offsetY;
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (isDragging) {
+        notepadWindow.style.left = `${e.pageX - offsetX}px`;
+        notepadWindow.style.top = `${e.pageY - offsetY}px`;
+      }
+    });
+
+    document.addEventListener('mouseup', () => {
+      isDragging = false;
+    });
+  </script>
 </body>
+</html>
